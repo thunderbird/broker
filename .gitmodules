@@ -1,0 +1,6 @@
+[submodule "lib/pygeoip"]
+	path = lib/pygeoip
+	url = git://github.com/appliedsec/pygeoip.git
+[submodule "pygeoip"]
+	path = pygeoip
+	url = git://github.com/appliedsec/pygeoip.git

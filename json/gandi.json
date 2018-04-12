@@ -1,0 +1,9 @@
+{"id": "gandi",
+  "label": "gandi.net",
+  "paid": true,
+  "languages" : ["en-GB", "fr", "es-ES"],
+  "api": "https://www.gandi.net/domain/thunderbird?email={email}&first_name={firstname}&last_name={lastname}",
+  "tos_url": "https://www.gandi.net/contracts",
+  "privacy_url": "http://en.gandi.net/static/pdf/en/privacy_en_us.pdf",
+  "icon": "https://www.gandi.net/favicon.ico"
+ }
