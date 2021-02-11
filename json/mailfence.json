@@ -1,0 +1,9 @@
+{"id": "mailfence",
+  "label": "mailfence.com",
+  "paid": true,
+  "languages" : ["en","en-GB","en-US", "fr","*"],
+  "api": "https://mailfence.com/api/v1/thunderbird/suggestion/?email={email}&first_name={firstname}&last_name={lastname}",
+  "tos_url": "https://mailfence.com/en/terms.jsp?src=tb",
+  "privacy_url": "https://mailfence.com/en/privacy.jsp?src=tb",
+  "icon": "https://mailfence.com/c/mailfence/images/favicon/favicon.ico"
+ }
