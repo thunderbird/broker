@@ -104,6 +104,7 @@ def suggestFromName(environ, query_string, client_ip):
 
     #load JSON data from provider
     providerData = {
+        "mailfence":json.loads(raw_provider_data["mailfence"]),
         "gandi":json.loads(raw_provider_data["gandi"]),
     }
     
