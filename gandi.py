@@ -8,7 +8,6 @@ from webob import Request
 SUGGEST_URL = 'https://suggest.api.gandi.net/v1'
 
 def suggest(query_string, client_ip):
-
     url = SUGGEST_URL + '?' + query_string + '&country=' + client_ip
     #headers = {SPECIAL_HEADER_TYPE:SPECIAL_HEADER_TEXT}
 

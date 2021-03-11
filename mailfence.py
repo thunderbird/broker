@@ -1,6 +1,7 @@
 # Mailfence-specific API Functions
 import json
 import os
+import settings
 import sys
 import urllib2
 from webob import Request
@@ -8,8 +9,7 @@ from webob import Request
 SUGGEST_URL = 'https://mailfence.com/api/v1/thunderbird/suggest'
 
 def suggest(query_string, client_ip):
-
-    url = SUGGEST_URL + '?' + query_string + '&country=' + client_ip
+    url = SUGGEST_URL + '?' + query_string + settings.apikey + '&country=' + client_ip
     #headers = {SPECIAL_HEADER_TYPE:SPECIAL_HEADER_TEXT}
 
     #dbg = urllib2.urlopen(url).info().getheader('Content-Type')
