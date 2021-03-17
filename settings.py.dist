@@ -2,6 +2,8 @@
 import gandi
 import mailfence
 
+apikey = ''
+
 #list of provider module names
 PROVIDERS = {'gandi': gandi,
              'mailfence': mailfence}
