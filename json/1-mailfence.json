@@ -1,5 +1,5 @@
 {"id": "mailfence",
-  "label": "mailfence.com",
+  "label": "Mailfence Secure Email",
   "paid": true,
   "languages" : ["en","en-GB","en-US", "fr","*"],
   "api": "https://mailfence.com/api/v1/thunderbird/suggestion/?email={email}&first_name={firstname}&last_name={lastname}",
