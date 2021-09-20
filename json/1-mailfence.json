@@ -5,5 +5,6 @@
   "api": "https://mailfence.com/api/v1/thunderbird/suggestion/?email={email}&first_name={firstname}&last_name={lastname}",
   "tos_url": "https://mailfence.com/en/terms.jsp?src=tb&forcelg=auto",
   "privacy_url": "https://mailfence.com/en/privacy.jsp?src=tb&forcelg=auto",
-  "icon": "https://mailfence.com/c/mailfence/images/favicon/favicon.ico"
+  "icon": "https://mailfence.com/c/mailfence/images/favicon/favicon.ico",
+  "sellsDomain": false
  }
