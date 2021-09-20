@@ -6,5 +6,5 @@
   "tos_url": "https://www.gandi.net/contracts",
   "privacy_url": "http://en.gandi.net/static/pdf/en/privacy_en_us.pdf",
   "icon": "https://www.gandi.net/favicon.ico",
-  "sellsDomain": true
+  "sells_domain": true
  }
